@@ -1,0 +1,99 @@
+.navbar_responsive {
+    display: none;
+}
+
+@media (max-width:767px) {
+
+    .navbar_responsive {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 240px;
+        background: var(--secondary-color);
+        border-bottom: 1px solid var(--primary-color);
+        font-family: 'Abril Fatface';
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        z-index: 73;
+        opacity: 1;
+    }
+    
+    .nav {
+        width: 100%;
+        height: auto;
+        padding:15px;
+    }
+    
+    
+    .nav ul{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav ul li{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .nav ul li a {
+        text-align: none;
+        font-weight: 500;
+        margin: 10px 20px;
+        color: var(--white-color);
+        letter-spacing: 2px;
+        text-decoration: none;
+        transition: .2s ease-in-out;
+    }
+    
+
+    .nav ul li a:hover {
+        color: var(--primary-color);
+    }
+
+    .navbar-hidden {
+        overflow: hidden;
+        height: 70px;
+        transition: .4s ease-in-out;
+    }
+
+    .burger-menu {
+        position: absolute;
+        width: 30px;
+        height: 40px;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .burger-menu span {
+        transform-origin: 0px 100%;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        margin-top: 10px;
+    }
+
+    .burger-menu span:last-child {
+        width: 70%;
+    }
+
+    .burger-menu:hover span:first-child {
+        transform: rotate(45deg) translate(2px, 1px);
+    }
+
+    .burger-menu:hover span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger-menu:hover span:last-child {
+        transform: rotate(-45deg) translate(2px, 1px);
+        width: 100%;
+    }
+}

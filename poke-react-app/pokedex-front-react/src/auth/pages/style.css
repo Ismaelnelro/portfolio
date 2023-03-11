@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 44, 31);
+    background: linear-gradient(20deg, rgba(255, 44, 31, 1)44%, rgba(255, 215, 36, 1) 100%);
+}
+
+.container img {
+    z-index: 99;
+    margin-bottom: 10px;
+    filter: drop-shadow(-10px 3px 2px rgba(0, 0, 0, 0.45));
+}
+
+.container form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 65%;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+.container form input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    filter: drop-shadow(-12px 4px 6px rgba(0, 0, 0, 0.45));
+    z-index: 99;
+    outline: none;
+    padding: 8px;
+}
+
+
+.container button {
+    filter: drop-shadow(-10px 4px 7px rgba(0, 0, 0, 0.55));
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    transition: all .5 ease-in-out;
+    cursor: pointer;
+    outline: none;
+    z-index: 9;
+}
+
+.container .btn:hover {
+    outline: none;
+    transform: scale(1.06);
+    font-size: 15px;
+}
+
+
+.box_1 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.box_1::after,
+.box_1::before {
+    content: "";
+    position: absolute;
+    backdrop-filter: blur(2px);
+}
+
+.box_1::before {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0%, 20% 100%, 100% 100%);
+    background-color: rgba(228, 235, 132, 0.18);
+}
+
+
+.box_1::after {
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    background-color: rgba(228, 235, 132, 0.22);
+}

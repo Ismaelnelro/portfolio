@@ -1,0 +1,9 @@
+#root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-navbar: rgba(0, 0, 0, 0.8);
+}

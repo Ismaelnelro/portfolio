@@ -1,0 +1,143 @@
+.aboutme {
+    background-color: var(--tertiary-color);
+    color: var(--white-color);
+    padding: 20px 20px;
+    height: 100vh;
+    display: flex;
+}
+
+.aboutme .contenido-seccion {
+    max-width: 90%;
+    margin: auto;
+}
+
+.aboutme h2 {
+    font-family: 'Abril Fatface';
+    font-size: 48px;
+    text-align: center;
+    padding: 65px 0;
+
+}
+
+.aboutme .contenido-seccion p {
+    width: 95%;
+    margin: 0 auto;
+    font: 18px;
+    line-height: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.aboutme .contenido-seccion p span {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* Info Personal and Interests */
+
+.aboutme .container_info .info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutme .container_info .info h3 {
+    font-size: 2rem;
+    font-family: 'Abril Fatface';
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.aboutme .container_info .info ul {
+    list-style: none;
+}
+
+.aboutme .container_info .info ul li {
+    margin: 5px 0;
+}
+
+.aboutme .container_info .info ul li strong {
+    display: inline-block;
+    color: var(--primary-color);
+    width: 100px;
+}
+
+.aboutme .container_info .info .contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutme .container_info .info .contenedor-intereses .interes {
+    width: 90px;
+    height: 90px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    margin: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+
+.aboutme .container_info .info .contenedor-intereses .interes:hover {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    transform: rotate(25deg);
+    transition: all .5s ease;
+}
+
+.aboutme .container_info .info .contenedor-intereses .interes i {
+    font-size: 30px;
+}
+
+@media (max-width:767px) {
+
+    /* Elements with display none */
+    .aboutme .container_info .info .contenedor-infopersonal {
+        display: none;
+        visibility: hidden;
+    }
+
+    /* -------------------------- */
+
+    .aboutme {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutme h2 {
+        padding: 18px 0;
+    }
+
+    .aboutme .container_info .info {
+        position: relative;
+        display: flex;
+        height: 300px;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .aboutme .container_info .info .contenedor-intereses {
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .aboutme .container_info .info .contenedor-intereses .interes {
+        width: 72px;
+        height:72px;
+        margin: 5px;
+    }
+
+}

@@ -1,0 +1,315 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.seccion {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    user-select: none;
+}
+
+.seccion .showPokemons-scroll {
+    overflow: scroll;
+    scroll-behavior: smooth;
+    margin: 0px auto;
+    width: 100vw;
+    height: 30vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.12);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.34);
+    box-shadow: 0 4px 12px 1px rgba(0, 0, 0, 0.32);
+}
+
+.seccion .showPokemons-scroll ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px black;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(4, 4, 4, 0.7);
+    border-radius: 6px;
+    margin: 10px 20px;
+    width: 28%;
+    height: 150px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    transform-origin: center center;
+
+    perspective: 3000px;
+    transform-style: preserve-3d;
+
+}
+
+
+.seccion .showPokemons-scroll .skeleton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px black;
+    background-color: rgba(4, 3, 3, 0.8);
+    border: 1px solid rgba(4, 4, 4, 0.7);
+    border-radius: 6px;
+    margin: 10px 20px;
+    width: 28%;
+    height: 150px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    transform-origin: center center;
+    
+    perspective: 3000px;
+    transform-style: preserve-3d;
+
+}
+.seccion .showPokemons-scroll .skeleton::before {
+    content: "Loading...";
+    color: white;
+    font-size: 9px;
+}
+
+
+
+.seccion .showPokemons-scroll ul:hover .img {
+    transform: scale(2);
+    transition: 0.5s ease;
+    z-index: 99;
+
+}
+
+.seccion .showPokemons-scroll ul:hover .img img {
+    transition: 0.5s ease;
+    filter: drop-shadow(10px -2px 3px rgb(0, 0, 0));
+    transform-origin: center center;
+    backface-visibility: hidden;
+    transform: rotate3d(1, 1, 0.4, -23deg);
+}
+
+
+.seccion .showPokemons-scroll ul:hover {
+    box-shadow: 7px 8px 14px 2px rgba(10, 4, 4, 1);
+    border-bottom: 2px solid rgba(4, 4, 4, 0.7);
+    transform: rotate3d(1, -1, 0, 23deg);
+}
+
+.seccion .showPokemons-scroll ul p {
+    font-size: 9px;
+    color: white;
+    transition: all .5s ease;
+    filter: drop-shadow(0px 1px 0px black);
+}
+
+.seccion .showPokemons-scroll ul:hover p {
+    transform-origin: center center;
+    transform: rotate3d(1, 0, 0, 23deg);
+    backface-visibility: hidden;
+}
+
+
+.seccion .showPokemons-scroll ul .img img {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    filter: drop-shadow(1px -1px 1px black);
+    transition: all 0.5s ease;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+}
+
+
+/* Favorite */
+.seccion .showPokemons-scroll .favorite {
+    display: none;
+    filter: drop-shadow(2px 2px 3px red);
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    perspective: 3000px;
+}
+
+.seccion .showPokemons-scroll ul:hover .favorite {
+    color: red;
+    display: block;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    margin: 4px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+
+
+/* Info */
+.seccion .info {
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 100%;
+    height: 100%;
+}
+
+
+.seccion .info .container-pokemonDay {
+    height: calc(100vh - 300px);
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion .info .container-pokemonDay .title {
+    text-align: end;
+    margin: 20px;
+    color: #2F2F2F;
+}
+
+.seccion .info .container-pokemonDay .pokemon {
+    display: flex;
+    justify-content: end;
+    z-index: 99;
+}
+
+.seccion .info .container-pokemonDay .pokemon .stats {
+    width: auto;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 4px;
+    color: #2F2F2F;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.seccion .info .container-pokemonDay .pokemon .stats p:nth-child(even) {
+    font-weight: 500;
+}
+.seccion .info .container-pokemonDay .pokemon .stats p:last-child{
+    background-color: #2F2F2F;
+    color: white;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+.seccion .info .container-pokemonDay .pokemon .img img {
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(1px 1px 4px black);
+}
+
+.seccion .info .container-pokemonDay .pokemon .img p {
+    text-align: center;
+    color: rgb(83, 73, 73);
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Decoracion */
+.box_1 {
+    width: 100%;
+    height: 20%;
+}
+
+.box_1::after,
+.box_1::before {
+    content: "";
+    position: absolute;
+    backdrop-filter: blur(2px);
+}
+
+.box_1::before {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0%, 60% 100%, 100% 100%);
+
+}
+
+
+.box_1::after {
+
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 10%, 30% 100%, 100% 100%);
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+
+.electric::before {
+    background-color: #FFEA70;
+}
+
+.normal::before {
+    background-color: #B09398;
+}
+
+.fire::before {
+    background-color: #FF675C;
+}
+
+.water::before {
+    background-color: #0596C7;
+}
+
+.ice::before {
+    background-color: #AFEAFD;
+}
+
+.rock::before {
+    background-color: #999799;
+}
+
+.flying::before {
+    background-color: #7AE7C7;
+}
+
+.grass ::before {
+    background-color: #4A9681;
+}
+
+.psychic ::before {
+    background-color: #FFC6D9;
+}
+
+.ghost::before {
+    background-color: #561D25;
+}
+
+.bug ::before {
+    background-color: #A2FAA3;
+}
+
+.poison::before {
+    background-color: #795663;
+}
+
+.ground::before {
+    background-color: #D2B074;
+}
+
+.dragon::before {
+    background-color: #DA627D;
+}
+
+.steel::before {
+    background-color: #1D8A99;
+}
+
+.fighting::before {
+    background-color: #2F2F2F;
+}
+
+.default::before {
+    background-color: #2A1A1F;
+}

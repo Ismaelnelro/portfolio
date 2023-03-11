@@ -1,0 +1,66 @@
+.home {
+    align-items: center;
+    background-size: cover;
+    background: linear-gradient(to top, rgba(30, 35, 38, .4), rgba(30, 35, 38, 2)), url('/src/assets/background.jpg');
+    background-size: cover;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.home .image {
+    border-radius: 100%;
+    border: 3px solid var(--primary-color);
+    margin: 0 auto;
+    width: 20%;
+}
+
+.home h1 {
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.home h2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+}
+
+
+.home .network a {
+    border-radius: 100%;
+    border: 1px solid #fff;
+    color: var(--white-color);
+    display: inline-block;
+    font-size: 20px;
+    height: 42px;
+    line-height: 42px;
+    margin: 30px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+    width: 42px;
+}
+
+.home .network a:hover {
+    background-color: var(--primary-color);
+    color: #252A2E;
+}
+
+
+@media (max-width:767px) {
+    .home .image {
+        width: 50%;
+        border: 2px solid var(--primary-color);
+    }
+
+    .home {
+        height: 100vh;
+    }
+
+}
