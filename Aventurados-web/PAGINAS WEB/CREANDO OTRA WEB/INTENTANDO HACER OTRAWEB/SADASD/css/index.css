@@ -1,0 +1,2520 @@
+.version.index /* version checker */
+{
+	color: #0000E3;
+	background-color: #70D056;
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#page
+{
+	background-color: transparent;
+	z-index: 1;
+	margin-right: auto;
+	border-color: transparent;
+	margin-left: auto;
+	border-width: 0px;
+	background-image: none;
+	width: 100%;
+}
+
+#home
+{
+	margin-right: -10000px;
+	width: 22px;
+	position: relative;
+}
+
+#u102
+{
+	background-color: transparent;
+	background-position: left top;
+	background-repeat: no-repeat;
+	z-index: 3;
+	background-size: contain;
+}
+
+#u1335-11
+{
+	vertical-align: top;
+	z-index: 10;
+	display: block;
+	position: relative;
+}
+
+#u2216
+{
+	background-color: #54201A;
+	z-index: 21;
+	position: relative;
+	height: 2px;
+}
+
+#slideshowu2246
+{
+	z-index: 22;
+	position: relative;
+	width: 0.01px;
+}
+
+#u2259popup
+{
+	z-index: 23;
+}
+
+#u2262
+{
+	background-color: transparent;
+	z-index: 24;
+	margin-right: -10000px;
+	border-color: transparent;
+	position: relative;
+	border-width: 0px;
+}
+
+#u2264
+{
+	background-color: transparent;
+	z-index: 26;
+	margin-right: -10000px;
+	border-color: transparent;
+	position: relative;
+	border-width: 0px;
+}
+
+#u2260
+{
+	background-color: transparent;
+	z-index: 28;
+	margin-right: -10000px;
+	border-color: transparent;
+	position: relative;
+	border-width: 0px;
+}
+
+#u2259,#u2268
+{
+	background-color: transparent;
+	position: absolute;
+}
+
+#u2268popup
+{
+	z-index: 30;
+}
+
+#u2271-4
+{
+	background-color: #FFFFFF;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	margin-right: -10000px;
+	border-color: transparent;
+	position: relative;
+	color: #999999;
+	padding: 10px;
+	z-index: 31;
+	line-height: 20px;
+	border-width: 0px;
+	min-height: 20px;
+}
+
+#u2269-4
+{
+	background-color: #FFFFFF;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	margin-right: -10000px;
+	border-color: transparent;
+	position: relative;
+	color: #999999;
+	padding: 10px;
+	z-index: 35;
+	line-height: 20px;
+	border-width: 0px;
+	min-height: 20px;
+}
+
+#u2270-4
+{
+	background-color: #FFFFFF;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	margin-right: -10000px;
+	border-color: transparent;
+	position: relative;
+	color: #999999;
+	padding: 10px;
+	z-index: 39;
+	line-height: 20px;
+	border-width: 0px;
+	min-height: 20px;
+}
+
+#u2266-4popup
+{
+	z-index: 43;
+}
+
+#u2266-4,#u2267-4
+{
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	border-color: transparent;
+	position: absolute;
+	background-color: #FFFFFF;
+	padding: 10px;
+	line-height: 20px;
+	border-width: 0px;
+	text-align: center;
+	min-height: 20px;
+}
+
+#u2267-4popup
+{
+	z-index: 47;
+}
+
+#u2266,#u2267
+{
+	color: #999999;
+}
+
+#u2248-4
+{
+	background-color: #FFFFFF;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	border-color: transparent;
+	position: absolute;
+	color: #999999;
+	padding: 10px;
+	line-height: 20px;
+	border-width: 0px;
+	text-align: center;
+	min-height: 20px;
+}
+
+#u2248-4popup
+{
+	z-index: 51;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#u2626-4
+{
+	vertical-align: top;
+	z-index: 55;
+	position: relative;
+	display: block;
+}
+
+#u2827
+{
+	background-color: #54201A;
+	z-index: 59;
+	position: relative;
+	height: 2px;
+}
+
+#u2883-3
+{
+	background-color: transparent;
+	z-index: 60;
+	position: relative;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#aboutus,#galeria,#infoposada,#infocaba,#noticias,#contacto,body
+{
+	position: relative;
+}
+
+@media (min-width: 1365px)
+{
+	#muse_css_mq
+	{
+		background-color: #FFFFFF;
+	}
+
+	#bp_infinity.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 1564px;
+		padding-bottom: 62px;
+	}
+
+	#u102
+	{
+		height: 447px;
+		background-image: url("../images/fondo7.jpg");
+		position: relative;
+		margin-right: -10000px;
+		width: 100.1%;
+		left: 0.1%;
+	}
+
+	#pgaleria
+	{
+		width: 0.01px;
+		margin-right: -10000px;
+		margin-top: 294px;
+		margin-left: -2px;
+	}
+
+	#galeria
+	{
+		margin-left: 2px;
+	}
+
+	#infoposada
+	{
+		margin-top: 266px;
+	}
+
+	#infocaba
+	{
+		margin-top: 168px;
+	}
+
+	#noticias
+	{
+		margin-top: 175px;
+	}
+
+	#pu1335-11
+	{
+		margin-right: -10000px;
+		margin-top: 447px;
+		width: 97.07%;
+		margin-left: 1.4%;
+	}
+
+	#u1335-11
+	{
+		width: 100%;
+	}
+
+	#u2216
+	{
+		margin-top: 18px;
+		width: 91.69%;
+		margin-left: 4.16%;
+	}
+
+	#u2827
+	{
+		margin-top: 1105px;
+		width: 91.69%;
+		margin-left: 4.21%;
+	}
+
+	#aboutus
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 62px;
+		left: 295px;
+	}
+
+	#slideshowu2246
+	{
+		height: 800px;
+		margin-right: -10000px;
+		margin-top: 1186px;
+		left: 23.21%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 1077px;
+		height: 669px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		margin: -25px 1px -24px -1px;
+	}
+
+	#u2268
+	{
+		width: 636px;
+		top: 687px;
+		left: 220px;
+	}
+
+	#u2271-4,#u2269-4
+	{
+		width: 616px;
+		text-align: left;
+	}
+
+	#u2270-4
+	{
+		width: 616px;
+		text-align: center;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 760px;
+		left: 488px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 760px;
+		left: 458px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 760px;
+		left: 556px;
+	}
+
+	#u2626-4
+	{
+		margin-right: -10000px;
+		margin-top: 992px;
+		width: 49.21%;
+		left: 25.4%;
+	}
+
+	#u2883-3
+	{
+		margin-right: -10000px;
+		margin-top: 813px;
+		width: 0.75%;
+		left: 85.81%;
+	}
+
+	#contacto
+	{
+		width: 22px;
+		margin-right: -10000px;
+	}
+
+	.verticalspacer
+	{
+		margin-bottom: -539px;
+		min-height: 1px;
+	}
+}
+
+@media (min-width: 1299px) and (max-width: 1364px)
+{
+	#muse_css_mq
+	{
+		background-color: #000554;
+	}
+
+	#bp_1364.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 1564px;
+		padding-bottom: 62px;
+		max-width: 1364px;
+	}
+
+	#ppphome
+	{
+		width: 100%;
+	}
+
+	#pphome
+	{
+		width: 0.01px;
+		margin-right: -10000px;
+		margin-left: -2px;
+	}
+
+	#phome
+	{
+		width: 0.01px;
+		margin-left: 2px;
+	}
+
+	#u102
+	{
+		min-height: 305px;
+		background-image: url("../images/fondo7.jpg");
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#galeria
+	{
+		margin-bottom: -7px;
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 294px;
+	}
+
+	#aboutus
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 62px;
+		left: 295px;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 305px;
+	}
+
+	#infoposada
+	{
+		margin-top: 273px;
+	}
+
+	#infocaba
+	{
+		margin-top: 168px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		margin-top: 284px;
+		width: 97.07%;
+		left: 1.47%;
+	}
+
+	#u2883-3
+	{
+		margin-right: -10000px;
+		margin-top: 813px;
+		width: 0.81%;
+		left: 85.86%;
+	}
+
+	#u2216
+	{
+		margin-top: 8px;
+		width: 89.01%;
+		margin-left: 5.5%;
+	}
+
+	#u2626-4
+	{
+		margin-top: 43px;
+		width: 49.2%;
+		margin-left: 25.37%;
+	}
+
+	#pnoticias
+	{
+		margin-top: 9px;
+		width: 100%;
+	}
+
+	#noticias
+	{
+		width: 22px;
+		margin-right: -10000px;
+		left: -2px;
+	}
+
+	#slideshowu2246
+	{
+		height: 800px;
+		margin-right: -10000px;
+		margin-top: 9px;
+		left: 10.49%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 1077px;
+		height: 669px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		margin: -25px 1px -24px -1px;
+	}
+
+	#u2268
+	{
+		width: 636px;
+		top: 687px;
+		left: 220px;
+	}
+
+	#u2271-4,#u2269-4
+	{
+		width: 616px;
+		text-align: left;
+	}
+
+	#u2270-4
+	{
+		width: 616px;
+		text-align: center;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 760px;
+		left: 488px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 760px;
+		left: 458px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 760px;
+		left: 556px;
+	}
+
+	#u2827
+	{
+		margin-top: 84px;
+		width: 89.01%;
+		margin-left: 7.12%;
+	}
+
+	#contacto
+	{
+		top: -485px;
+		margin-bottom: -18px;
+	}
+}
+
+@media (min-width: 1124px) and (max-width: 1298px)
+{
+	#muse_css_mq
+	{
+		background-color: #000512;
+	}
+
+	#bp_1298.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 1625.6499999999996px;
+		padding-bottom: 0px;
+		max-width: 1298px;
+	}
+
+	#page_position_content
+	{
+		padding-bottom: 62px;
+		width: 100%;
+	}
+
+	#pphome
+	{
+		width: 0.01px;
+		margin-right: -10000px;
+		margin-left: -2px;
+	}
+
+	#phome
+	{
+		width: 0.01px;
+		margin-left: 2px;
+	}
+
+	#u102
+	{
+		min-height: 305px;
+		background-image: url("../images/fondo7.jpg");
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#galeria
+	{
+		margin-bottom: -7px;
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 294px;
+	}
+
+	#aboutus
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 62px;
+		left: 295px;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 305px;
+	}
+
+	#infoposada
+	{
+		margin-top: 273px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		margin-top: 294px;
+		width: 96.15%;
+		left: 1.93%;
+	}
+
+	#u2216
+	{
+		top: -3px;
+		margin-bottom: -2px;
+		width: 88.99%;
+		margin-left: 5.55%;
+	}
+
+	#infocaba
+	{
+		left: -2px;
+		margin-top: 17px;
+	}
+
+	#ppphome,#pu2626-4
+	{
+		width: 100%;
+	}
+
+	#u2626-4
+	{
+		margin-right: -10000px;
+		width: 49.16%;
+		left: 25.43%;
+	}
+
+	#u2883-3
+	{
+		margin-right: -10000px;
+		margin-top: 31px;
+		width: 0.78%;
+		left: 85.83%;
+	}
+
+	#slideshowu2246
+	{
+		height: 668px;
+		margin-top: 43px;
+		margin-left: 9.33%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 1056px;
+		height: 544px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		padding-right: 1px;
+	}
+
+	#u2268
+	{
+		width: 662px;
+		top: 566px;
+		left: 197px;
+	}
+
+	#u2269-4
+	{
+		width: 642px;
+		text-align: center;
+	}
+
+	#u2271-4,#u2270-4
+	{
+		width: 642px;
+		text-align: left;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 628px;
+		left: 494px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 628px;
+		left: 464px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 628px;
+		left: 562px;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		top: -568px;
+		margin-bottom: -18px;
+	}
+
+	#u2827
+	{
+		margin-top: 60px;
+		width: 88.99%;
+		margin-left: 5.55%;
+	}
+
+	#contacto
+	{
+		top: -539px;
+		margin-bottom: -18px;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1123px)
+{
+	#muse_css_mq
+	{
+		background-color: #000463;
+	}
+
+	#bp_1123.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 1625.65px;
+		padding-bottom: 0px;
+		max-width: 1123px;
+	}
+
+	#page_position_content
+	{
+		padding-bottom: 229px;
+		width: 100%;
+	}
+
+	#ppphome
+	{
+		width: 100%;
+	}
+
+	#pphome
+	{
+		width: 0.01px;
+		margin-right: -10000px;
+		margin-left: -2px;
+	}
+
+	#phome
+	{
+		width: 0.01px;
+		margin-left: 2px;
+	}
+
+	#u102
+	{
+		min-height: 305px;
+		background-image: url("../images/fondo7.jpg");
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#galeria
+	{
+		margin-bottom: -7px;
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 294px;
+	}
+
+	#aboutus
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 62px;
+		left: 295px;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 305px;
+	}
+
+	#infoposada
+	{
+		margin-top: 273px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		margin-top: 260px;
+		width: 95.29%;
+		left: 1.79%;
+	}
+
+	#u2216
+	{
+		margin-top: 3px;
+		width: 88.96%;
+		margin-left: 5.53%;
+	}
+
+	#pinfocaba
+	{
+		margin-top: 34px;
+		width: 100%;
+	}
+
+	#infocaba
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 16px;
+		left: -2px;
+	}
+
+	#u2626-4
+	{
+		margin-right: -10000px;
+		width: 49.16%;
+		left: 24.14%;
+	}
+
+	#u2883-3
+	{
+		margin-top: 23px;
+		width: 0.81%;
+		margin-left: 85.85%;
+	}
+
+	#slideshowu2246
+	{
+		height: 540px;
+		top: -1px;
+		margin-bottom: -1px;
+		margin-left: 12.29%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 847px;
+		height: 431px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		padding-right: 1px;
+	}
+
+	#u2268
+	{
+		width: 653px;
+		top: 443px;
+		left: 97px;
+	}
+
+	#u2269-4
+	{
+		width: 633px;
+		text-align: center;
+	}
+
+	#u2271-4,#u2270-4
+	{
+		width: 633px;
+		text-align: left;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 500px;
+		left: 390px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 500px;
+		left: 358px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 500px;
+		left: 457px;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		top: -395px;
+		margin-bottom: -18px;
+	}
+
+	#u2827
+	{
+		margin-top: 26px;
+		width: 88.96%;
+		margin-left: 5.53%;
+	}
+
+	#contacto
+	{
+		top: -372px;
+		margin-bottom: -18px;
+	}
+}
+
+@media (min-width: 901px) and (max-width: 960px)
+{
+	#muse_css_mq
+	{
+		background-color: #0003c0;
+	}
+
+	#bp_960.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 500px;
+		max-width: 960px;
+	}
+
+	#page_position_content
+	{
+		margin-bottom: -415px;
+		width: 100%;
+	}
+
+	#ppphome
+	{
+		width: 100%;
+	}
+
+	#pphome
+	{
+		width: 0.01px;
+		margin-right: -10000px;
+		margin-left: -2px;
+	}
+
+	#phome
+	{
+		width: 0.01px;
+		margin-left: 2px;
+	}
+
+	#u102
+	{
+		min-height: 304.9000000000001px;
+		background-image: url("../images/fondo7.jpg");
+		padding-bottom: 0px;
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#u102_position_content
+	{
+		margin-bottom: -7px;
+		padding-top: 62px;
+		width: 100%;
+	}
+
+	#galeria
+	{
+		margin-top: 214px;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 304.9000000000001px;
+	}
+
+	#infoposada
+	{
+		margin-top: 273px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		margin-top: 188px;
+		width: 95.84%;
+		left: 2.09%;
+	}
+
+	#u2827
+	{
+		margin-top: 44px;
+		width: 88.96%;
+		margin-left: 6.25%;
+	}
+
+	#u2626-4
+	{
+		margin-top: 9px;
+		width: 49.17%;
+		margin-left: 25.42%;
+	}
+
+	#pinfocaba
+	{
+		margin-top: 44px;
+		width: 100%;
+	}
+
+	#infocaba
+	{
+		width: 22px;
+		margin-right: -10000px;
+		left: -2px;
+	}
+
+	#slideshowu2246
+	{
+		height: 544px;
+		margin-right: -10000px;
+		margin-top: 4px;
+		left: 10.42%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 761px;
+		height: 451px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		margin: -28px 1px -29px -1px;
+	}
+
+	#u2268
+	{
+		width: 686px;
+		top: 457px;
+		left: 38px;
+	}
+
+	#u2271-4
+	{
+		width: 666px;
+		text-align: center;
+	}
+
+	#u2269-4,#u2270-4
+	{
+		width: 666px;
+		text-align: left;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 504px;
+		left: 347px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 504px;
+		left: 316px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 504px;
+		left: 414px;
+	}
+
+	#u2883-3
+	{
+		top: -474px;
+		margin-bottom: -17px;
+		width: 0.73%;
+		margin-left: 85.84%;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		top: -338px;
+		margin-bottom: -18px;
+	}
+
+	#u2216
+	{
+		margin-top: 22px;
+		width: 88.96%;
+		margin-left: 5.53%;
+	}
+
+	#contacto
+	{
+		margin-top: 459px;
+	}
+}
+
+@media (min-width: 801px) and (max-width: 900px)
+{
+	#muse_css_mq
+	{
+		background-color: #000384;
+	}
+
+	#bp_900.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 499.8999999999994px;
+		padding-bottom: 0px;
+		max-width: 900px;
+	}
+
+	#page_position_content
+	{
+		margin-bottom: -415px;
+		width: 100%;
+	}
+
+	#phome
+	{
+		width: 100%;
+	}
+
+	#u102
+	{
+		min-height: 304.9000000000001px;
+		background-image: url("../images/fondo7.jpg");
+		padding-bottom: 0px;
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#u102_position_content
+	{
+		margin-bottom: -7px;
+		padding-top: 62px;
+		width: 100%;
+	}
+
+	#galeria
+	{
+		margin-top: 214px;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 304.9000000000001px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		margin-top: 207px;
+		width: 95.56%;
+		left: 2.23%;
+	}
+
+	#pinfoposada
+	{
+		margin-top: 113px;
+		width: 100%;
+	}
+
+	#infoposada
+	{
+		width: 22px;
+		margin-right: -10000px;
+		left: -2px;
+	}
+
+	#u2216
+	{
+		margin-right: -10000px;
+		margin-top: 9px;
+		width: 89%;
+		left: 6.45%;
+	}
+
+	#u2626-4
+	{
+		margin-top: 25px;
+		width: 49.12%;
+		margin-left: 25.45%;
+	}
+
+	#slideshowu2246
+	{
+		height: 466px;
+		margin-top: 32px;
+		margin-left: 11.67%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 691px;
+		height: 367px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		padding-right: 1px;
+	}
+
+	#u2268
+	{
+		width: 587px;
+		top: 372px;
+		left: 52px;
+	}
+
+	#u2271-4
+	{
+		width: 567px;
+		text-align: center;
+	}
+
+	#u2269-4,#u2270-4
+	{
+		width: 567px;
+		text-align: left;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 426px;
+		left: 311px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 426px;
+		left: 281px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 426px;
+		left: 379px;
+	}
+
+	#u2883-3
+	{
+		top: -406px;
+		margin-bottom: -17px;
+		width: 0.78%;
+		margin-left: 85.78%;
+	}
+
+	#infocaba
+	{
+		left: -2px;
+		top: -393px;
+		margin-bottom: -18px;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		top: -183px;
+		margin-bottom: -18px;
+	}
+
+	#u2827
+	{
+		margin-top: 29px;
+		width: 89%;
+		margin-left: 5.56%;
+	}
+
+	#contacto
+	{
+		margin-top: 459px;
+	}
+}
+
+@media (min-width: 701px) and (max-width: 800px)
+{
+	#muse_css_mq
+	{
+		background-color: #000320;
+	}
+
+	#bp_800.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 1495.949999999999px;
+		padding-bottom: 0px;
+		max-width: 800px;
+	}
+
+	#page_position_content
+	{
+		margin-bottom: -415px;
+		width: 100%;
+	}
+
+	#phome
+	{
+		width: 100%;
+	}
+
+	#u102
+	{
+		min-height: 304.9000000000001px;
+		background-image: url("../images/fondo7.jpg");
+		padding-bottom: 0px;
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#u102_position_content
+	{
+		margin-bottom: -7px;
+		padding-top: 62px;
+		width: 100%;
+	}
+
+	#galeria
+	{
+		margin-top: 214px;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 304.9000000000001px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		margin-top: 181px;
+		width: 95%;
+		left: 2.5%;
+	}
+
+	#u2216
+	{
+		margin-top: 15px;
+		width: 89%;
+		margin-left: 5.5%;
+	}
+
+	#u2626-4
+	{
+		margin-top: 18px;
+		width: 53%;
+		margin-left: 24%;
+	}
+
+	#infoposada
+	{
+		left: -2px;
+		margin-top: 7px;
+	}
+
+	#slideshowu2246
+	{
+		height: 437px;
+		margin-top: 28px;
+		margin-left: 9.13%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 636px;
+		height: 319px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		padding-right: 1px;
+	}
+
+	#u2268
+	{
+		width: 358px;
+		top: 334px;
+		left: 148px;
+	}
+
+	#u2271-4,#u2269-4,#u2270-4
+	{
+		width: 338px;
+		text-align: left;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 396px;
+		left: 293px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 397px;
+		left: 263px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 396px;
+		left: 361px;
+	}
+
+	#infocaba
+	{
+		left: -2px;
+		top: -297px;
+		margin-bottom: -18px;
+	}
+
+	#u2883-3
+	{
+		top: -248px;
+		margin-bottom: -17px;
+		width: 0.75%;
+		margin-left: 85.88%;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		top: -87px;
+		margin-bottom: -18px;
+	}
+
+	#u2827
+	{
+		margin-top: 23px;
+		width: 89%;
+		margin-left: 5.5%;
+	}
+
+	#contacto
+	{
+		margin-top: 807px;
+	}
+}
+
+@media (min-width: 597px) and (max-width: 700px)
+{
+	#muse_css_mq
+	{
+		background-color: #0002bc;
+	}
+
+	#bp_700.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 499.9499999999989px;
+		padding-bottom: 0px;
+		max-width: 700px;
+	}
+
+	#page_position_content
+	{
+		margin-bottom: -415px;
+		width: 100%;
+	}
+
+	#phome
+	{
+		width: 100%;
+	}
+
+	#u102
+	{
+		min-height: 305px;
+		background-image: url("../images/fondo7.jpg");
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#aboutus
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 158px;
+	}
+
+	#u1335-11
+	{
+		margin-bottom: -131px;
+		margin-right: -10000px;
+		margin-top: 158px;
+		width: 94.29%;
+		left: 2.86%;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 305px;
+	}
+
+	#galeria
+	{
+		left: -11px;
+		margin-top: 107px;
+	}
+
+	#u2216
+	{
+		top: -1px;
+		margin-bottom: -1px;
+		width: 89%;
+		margin-left: 5.58%;
+	}
+
+	#u2626-4
+	{
+		margin-top: 26px;
+		width: 49.15%;
+		margin-left: 25.43%;
+	}
+
+	#slideshowu2246
+	{
+		height: 315px;
+		margin-top: 9px;
+		margin-left: 19.86%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 422px;
+		height: 204px;
+	}
+
+	#u2268
+	{
+		width: 282px;
+		top: 212px;
+		left: 70px;
+	}
+
+	#u2269-4
+	{
+		width: 262px;
+		text-align: left;
+	}
+
+	#u2271-4,#u2270-4
+	{
+		width: 262px;
+		text-align: center;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 275px;
+		left: 177px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 275px;
+		left: 151px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 275px;
+		left: 245px;
+	}
+
+	#infoposada
+	{
+		left: -2px;
+		top: -235px;
+		margin-bottom: -18px;
+	}
+
+	#infocaba
+	{
+		left: -2px;
+		top: -49px;
+		margin-bottom: -18px;
+	}
+
+	#u2883-3
+	{
+		width: 0.72%;
+		margin-left: 85.86%;
+	}
+
+	#u2827
+	{
+		margin-top: 12px;
+		width: 89%;
+		margin-left: 5.58%;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		margin-top: 130px;
+	}
+
+	#contacto
+	{
+		margin-top: 459px;
+	}
+}
+
+@media (min-width: 497px) and (max-width: 596px)
+{
+	#muse_css_mq
+	{
+		background-color: #000254;
+	}
+
+	#bp_596.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 499.9499999999989px;
+		padding-bottom: 0px;
+		max-width: 596px;
+	}
+
+	#page_position_content
+	{
+		margin-bottom: -415px;
+		width: 100%;
+	}
+
+	#phome
+	{
+		width: 100%;
+	}
+
+	#u102
+	{
+		min-height: 305px;
+		background-image: url("../images/fondo7.jpg");
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#u102_position_content
+	{
+		margin-bottom: -129px;
+		padding-top: 62px;
+		width: 100%;
+	}
+
+	#pgaleria
+	{
+		margin-top: 54px;
+		position: relative;
+		width: 100%;
+	}
+
+	#galeria
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 160px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		width: 93.29%;
+		left: 3.36%;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 305px;
+	}
+
+	#u2216
+	{
+		margin-top: 122px;
+		width: 88.93%;
+		margin-left: 5.54%;
+	}
+
+	#infoposada
+	{
+		left: -2px;
+		margin-top: 6px;
+	}
+
+	#u2626-4
+	{
+		margin-top: 18px;
+		width: 49.17%;
+		margin-left: 25.34%;
+	}
+
+	#slideshowu2246
+	{
+		height: 315px;
+		margin-top: 14px;
+		margin-left: 17.12%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 393px;
+		height: 232px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		margin-top: -15px;
+		margin-bottom: -15px;
+	}
+
+	#u2268
+	{
+		width: 282px;
+		top: 234px;
+		left: 56px;
+	}
+
+	#u2271-4
+	{
+		width: 262px;
+		text-align: left;
+	}
+
+	#u2269-4,#u2270-4
+	{
+		width: 262px;
+		text-align: center;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 275px;
+		left: 162px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 275px;
+		left: 132px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 275px;
+		left: 230px;
+	}
+
+	#infocaba
+	{
+		left: -2px;
+		top: -68px;
+		margin-bottom: -18px;
+	}
+
+	#u2883-3
+	{
+		top: -19px;
+		margin-bottom: -17px;
+		width: 0.84%;
+		margin-left: 85.91%;
+	}
+
+	#u2827
+	{
+		margin-top: 38px;
+		width: 88.93%;
+		margin-left: 5.54%;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		margin-top: 102px;
+	}
+
+	#contacto
+	{
+		margin-top: 459px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 496px)
+{
+	#muse_css_mq
+	{
+		background-color: #0001f0;
+	}
+
+	#bp_496.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 499.9499999999989px;
+		padding-bottom: 0px;
+		max-width: 496px;
+	}
+
+	#page_position_content
+	{
+		margin-bottom: -415px;
+		width: 100%;
+	}
+
+	#phome
+	{
+		width: 100%;
+	}
+
+	#u102
+	{
+		min-height: 305px;
+		background-image: url("../images/fondo7.jpg");
+	}
+
+	#u102_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#aboutus
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 62px;
+	}
+
+	#u1335-11
+	{
+		margin-bottom: -121px;
+		margin-right: -10000px;
+		margin-top: 112px;
+		width: 84.88%;
+		left: 7.46%;
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		min-height: 305px;
+	}
+
+	#u2216
+	{
+		margin-top: 98px;
+		width: 88.92%;
+		margin-left: 5.45%;
+	}
+
+	#galeria
+	{
+		left: -2px;
+		margin-top: 39px;
+	}
+
+	#u2626-4
+	{
+		top: -1px;
+		margin-bottom: -1px;
+		width: 49.2%;
+		margin-left: 25.41%;
+	}
+
+	#slideshowu2246
+	{
+		height: 269px;
+		margin-top: 42px;
+		margin-left: 21.58%;
+	}
+
+	#u2259,#u2262,#u2264,#u2260
+	{
+		width: 283px;
+		height: 184px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		margin-top: -2px;
+		margin-bottom: -3px;
+	}
+
+	#u2268
+	{
+		width: 282px;
+		top: 188px;
+		left: 1px;
+	}
+
+	#u2271-4,#u2269-4,#u2270-4
+	{
+		width: 262px;
+		text-align: center;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 229px;
+		left: 102px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 229px;
+		left: 72px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 229px;
+		left: 171px;
+	}
+
+	#infoposada
+	{
+		left: -2px;
+		top: -226px;
+		margin-bottom: -18px;
+	}
+
+	#infocaba
+	{
+		left: -2px;
+		top: -40px;
+		margin-bottom: -18px;
+	}
+
+	#u2883-3
+	{
+		margin-top: 9px;
+		width: 0.81%;
+		margin-left: 85.89%;
+	}
+
+	#u2827
+	{
+		margin-top: 11px;
+		width: 88.92%;
+		margin-left: 5.45%;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		margin-top: 131px;
+	}
+
+	#contacto
+	{
+		margin-top: 459px;
+	}
+}
+
+@media (min-width: 322px) and (max-width: 399px)
+{
+	#muse_css_mq
+	{
+		background-color: #00018f;
+	}
+
+	#bp_399.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 499.9499999999989px;
+		padding-bottom: 0px;
+		max-width: 399px;
+	}
+
+	#page_position_content
+	{
+		margin-bottom: -415px;
+		width: 100%;
+	}
+
+	#phome
+	{
+		width: 100%;
+	}
+
+	#u102
+	{
+		height: 96px;
+		background-image: url("../images/fondo7-u102-fr.jpg");
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		height: 96px;
+	}
+
+	#aboutus
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 87px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		margin-top: 71px;
+		width: 79.95%;
+		left: 10.03%;
+	}
+
+	#u2216
+	{
+		top: -5px;
+		margin-bottom: -2px;
+		width: 88.98%;
+		margin-left: 5.52%;
+	}
+
+	#galeria
+	{
+		margin-top: 10px;
+	}
+
+	#u2626-4
+	{
+		margin-top: 8px;
+		width: 49.13%;
+		margin-left: 25.32%;
+	}
+
+	#slideshowu2246
+	{
+		height: 272px;
+		margin-top: 39px;
+		margin-left: 13.54%;
+	}
+
+	#u2259
+	{
+		width: 248px;
+		height: 184px;
+		left: 22px;
+	}
+
+	#u2262,#u2264,#u2260
+	{
+		width: 248px;
+		height: 184px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		margin-left: -14px;
+		margin-right: -14px;
+	}
+
+	#u2268
+	{
+		width: 291px;
+		top: 189px;
+	}
+
+	#u2271-4,#u2269-4,#u2270-4
+	{
+		width: 271px;
+		text-align: center;
+	}
+
+	#u2266-4
+	{
+		width: 53px;
+		top: 232px;
+		left: 109px;
+	}
+
+	#u2267-4
+	{
+		width: 46px;
+		top: 232px;
+		left: 43px;
+	}
+
+	#u2248-4
+	{
+		width: 46px;
+		top: 232px;
+		left: 182px;
+	}
+
+	#infoposada
+	{
+		left: -2px;
+		top: -209px;
+		margin-bottom: -18px;
+	}
+
+	#infocaba
+	{
+		left: -2px;
+		top: -23px;
+		margin-bottom: -18px;
+	}
+
+	#u2827
+	{
+		margin-top: 23px;
+		width: 88.98%;
+		margin-left: 5.52%;
+	}
+
+	#u2883-3
+	{
+		margin-top: 1px;
+		width: 0.76%;
+		margin-left: 85.72%;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		margin-top: 144px;
+	}
+
+	#contacto
+	{
+		margin-top: 459px;
+	}
+}
+
+@media (max-width: 321px)
+{
+	#muse_css_mq
+	{
+		background-color: #000141;
+	}
+
+	#bp_321.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 1074px;
+		max-width: 321px;
+	}
+
+	#page_position_content
+	{
+		padding-bottom: 31px;
+		width: 100%;
+	}
+
+	#u102
+	{
+		height: 72px;
+		background-image: url("../images/fondo7-u102-fr2.jpg");
+	}
+
+	#u102-bw
+	{
+		z-index: 3;
+		height: 72px;
+	}
+
+	#phome,#ppaboutus
+	{
+		width: 100%;
+	}
+
+	#paboutus
+	{
+		width: 0.01px;
+		margin-right: -10000px;
+	}
+
+	#galeria
+	{
+		margin-top: 232px;
+	}
+
+	#u1335-11
+	{
+		margin-right: -10000px;
+		width: 85.05%;
+		left: 6.86%;
+	}
+
+	#u2216
+	{
+		margin-right: -10000px;
+		margin-top: 243px;
+		width: 89.1%;
+		left: 5.61%;
+	}
+
+	#pslideshowu2246
+	{
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	#slideshowu2246
+	{
+		height: 276px;
+		margin-right: -10000px;
+		margin-top: 17px;
+		left: 6.24%;
+	}
+
+	#u2259
+	{
+		width: 264px;
+		height: 184px;
+		left: 9px;
+	}
+
+	#u2262,#u2264,#u2260
+	{
+		width: 264px;
+		height: 184px;
+	}
+
+	#u2262_img,#u2264_img,#u2260_img
+	{
+		margin-left: -6px;
+		margin-right: -6px;
+	}
+
+	#u2268
+	{
+		width: 282px;
+		top: 236px;
+	}
+
+	#u2271-4
+	{
+		width: 262px;
+		text-align: center;
+	}
+
+	#u2269-4,#u2270-4
+	{
+		width: 262px;
+		text-align: left;
+	}
+
+	#u2266-4
+	{
+		width: 48px;
+		top: 190px;
+		left: 107px;
+	}
+
+	#u2267-4
+	{
+		width: 10px;
+		top: 190px;
+		left: 77px;
+	}
+
+	#u2248-4
+	{
+		width: 10px;
+		top: 190px;
+		left: 175px;
+	}
+
+	#u2626-4
+	{
+		margin-right: -10000px;
+		width: 49.23%;
+		left: 25.55%;
+	}
+
+	#infoposada
+	{
+		left: -4px;
+		margin-top: 27px;
+	}
+
+	#u2827
+	{
+		margin-top: 52px;
+		width: 89.1%;
+		margin-left: 5.61%;
+	}
+
+	#infocaba
+	{
+		left: -2px;
+		margin-top: 18px;
+	}
+
+	#u2883-3
+	{
+		margin-top: 31px;
+		width: 0.63%;
+		margin-left: 85.67%;
+	}
+
+	#noticias
+	{
+		left: -2px;
+		margin-top: 144px;
+	}
+
+	#contacto
+	{
+		margin-top: 33px;
+	}
+
+	body
+	{
+		min-width: 320px;
+	}
+}
+

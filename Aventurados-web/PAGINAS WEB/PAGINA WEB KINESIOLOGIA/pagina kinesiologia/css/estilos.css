@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CUERPO DE LA PAGIA*/
+body{background-image: url(../imgfondo/fondoazul.jpg);background-size:cover; background-position: center center; background-repeat: no-repeat;background-attachment: fixed}
+---------------------------------------------------------------------
+
+/*CAJA DEL LOGO*/
+
+#logo{width: 50%;}
+#logo img{ width: 20%;height:20%;margin-left:520px;margin-top:100px;}
+------------------------------------------------------------------------------------------
+
+
+
+
+/*CAJA CONTENEDORA DE LAS DEMAS CAJAS*/
+#cajaquecontienetodo{ width: 100%;max-width: 2200px;margin: 0 auto;overflow: hidden;}
+---------------------------------------------------------------------
+
+/*ESTILOS PARA LOGO DEL LOGIN*/
+
+
+#cajaingresar{ margin-right:521px;margin-left:498px; padding-left:120px;border-bottom: 20px solid #101020;}
+.ingresar{list-style: none;height: 30px; font-size: 20px; cursor: pointer;;}
+
+.ingresar a { font-family:sans-serif; color: azure; text-decoration: none}
+
+
+
+
+
+@media screen and (max-width:320px){
+ #logo img{ width: 79%;height:auto;margin-left:30px;margin-top:100px;}  
+}

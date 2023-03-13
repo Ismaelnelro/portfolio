@@ -1,0 +1,49 @@
+<manifest alg="2" build="2015.1.0.342" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="aventurados.com" resolutions="1x" timestamp="1481070163258">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="master_a-p_g_-maestra.css" crc="304164943" ref="info-posada:info-cabañas:noticias:galeria:contacto:index"/>
+    <file name="nomq_preview_master_a-p_g_-maestra.css" crc="324873954" ref="info-posada:info-cabañas:noticias:galeria:contacto:index"/>
+    <file name="info-posada.css" crc="4162944063" ref="info-posada"/>
+    <file name="nomq_info-posada.css" crc="523928488" ref="info-posada"/>
+    <file name="info-caba_as.css" crc="4162944063" ref="info-cabañas"/>
+    <file name="nomq_info-caba_as.css" crc="523928488" ref="info-cabañas"/>
+    <file name="noticias.css" crc="4162944063" ref="noticias"/>
+    <file name="nomq_noticias.css" crc="523928488" ref="noticias"/>
+    <file name="galeria.css" crc="4162944063" ref="galeria"/>
+    <file name="nomq_galeria.css" crc="523928488" ref="galeria"/>
+    <file name="contacto.css" crc="4162944063" ref="contacto"/>
+    <file name="nomq_contacto.css" crc="523928488" ref="contacto"/>
+    <file name="index.css" crc="508966315" ref="index"/>
+    <file name="nomq_index.css" crc="526133294" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="sitio-web-3.muse" crc="536025199" seo="true" mt="1481045947000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="409338010" ref="index:galeria:info-posada:info-cabañas:noticias:contacto"/>
+    <file name="museutils.js" crc="4190794036" ref="index:galeria:info-posada:info-cabañas:noticias:contacto"/>
+    <file name="whatinput.js" crc="84559013" ref="index:galeria:info-posada:info-cabañas:noticias:contacto"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3792042506" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3866264083" ref="index:galeria:info-posada:info-cabañas:noticias:contacto"/>
+    <file name="jquery.watch.js" crc="349565855" ref="index:galeria:info-posada:info-cabañas:noticias:contacto"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:galeria:info-posada:info-cabañas:noticias:contacto"/>
+    <file name="jquery.museresponsive.js" crc="408737887" ref="index:galeria:info-posada:info-cabañas:noticias:contacto"/>
+  </folder>
+  <folder name="images">
+    <file name="fondo5.jpg" crc="104130087" ref="index"/>
+    <file name="fondo5-u2559-fr.jpg" crc="345515533" ref="index"/>
+    <file name="fondo5-u2559-fr2.jpg" crc="158128820" ref="index"/>
+    <file name="fondo5-u2559-fr3.jpg" crc="150220224" ref="index"/>
+    <file name="fondo5-u2559-fr4.jpg" crc="389309583" ref="index"/>
+    <file name="fondo5-u2559-fr5.jpg" crc="3992632823" ref="index"/>
+    <file name="fondo5-u2559-fr6.jpg" crc="21774762" ref="index"/>
+    <file name="fondo5-u2559-fr7.jpg" crc="3858089678" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3848497750" seo="true" mt="1481070143795" redirect="true"/>
+  <file name="galeria.html" crc="107607850" seo="true" mt="1481070147980" redirect="true"/>
+  <file name="info-posada.html" crc="315742095" seo="true" mt="1481070151142" redirect="true"/>
+  <file name="info-cabañas.html" crc="3941734413" seo="true" mt="1481070154403" redirect="true"/>
+  <file name="noticias.html" crc="4275363998" seo="true" mt="1481070157671" redirect="true"/>
+  <file name="contacto.html" crc="3777187898" seo="true" mt="1481070160831" redirect="true"/>
+</manifest>

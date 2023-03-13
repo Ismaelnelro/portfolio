@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Pokedex</title>
+
+</head>
+
+<body>
+    <div class="MesaPokedex">
+        
+        <div class="container-pokedex">
+            
+        <!-- Nombre del Pokemon -->
+        <div data-pokename></div>
+        <!-- Imagen del pokemon -->
+        <div data-img-container class="img-container">
+            <img data-img-pokemon class="img-pokemon" src="Pokebola9.png" alt="">
+        </div>
+        <!-- Id del pokemon -->
+        <div data-pokemon-id></div>
+        
+        
+        
+        <!-- TABLERO DE INFORMACION -->
+        <div class="tablero">
+            <!-- tipo de pokemon -->
+            <div data-pokedex class="type">
+                <div data-pokemon-typelogo1></div>
+                <div data-pokemon-typelogo2></div>
+                <div data-pokemon-type class="pokemon-type"></div>
+            </div>
+            <hr class="separador">
+            
+            <!-- stat -->
+            <div class="stats">
+                <div data-pokemon-stats class="pokemon-stats"></div>
+            </div>
+            <hr class="separador2">
+            
+            <!-- Abilities-->
+            <h4 class="textAbilities">ABILITIES</h4>
+            <div data-abilities>
+                <ul data-abilities-ul class="abilitiesUL"></ul>
+            </div>
+
+        </div>
+        <!-- BUSCADOR -->
+        <footer class="search">
+            
+            <form action="">
+                <input data-pokemon class="input" type="text" name="pokemon" autocomplete="off">
+            </form>
+
+            <button data-buscar class="btn"> SEARCH </button>
+
+        </footer>
+
+
+        <div class="union"></div>
+
+        <div class="PokemonList">
+            
+            <div class="header-lista">
+                <form action="">
+                    <input data-pokemon-list class="inputDesde" type="text" name="pokemon-list" autocomplete="off"
+                    placeholder="Limit">
+                    <input data-pokemon-list class="inputHasta" type="text" name="pokemon-list" autocomplete="off"
+                    placeholder="Offset">
+                </form>
+                <button data-buscarlista class="btn">SEARCH LIST</button>
+            </div>
+            
+            <div class="container-list">
+                <!-- <div class="individual-box">
+                    <div class="individual-box-pokemon">
+                        <h1 class="pokemon-name-list">PIKACHU</h1>
+                        <img class="img-pokemon-lista" src="Pokebola9.png" alt="">
+                    </div>
+                </div> -->
+            </div>
+            
+        </div>
+
+        
+    </div>
+</div>
+</body>
+
+</html>
