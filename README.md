@@ -1,3 +1,4 @@
 # PROYECTOS DE PORFOLIO
 
-> Proyectos hechos con html,css,bootstrap,js,react
+Cada folder es un proyeto  realizado con HTML,CSS alguno de ellos Bootstrap otros con JS puro y otros con React
+
