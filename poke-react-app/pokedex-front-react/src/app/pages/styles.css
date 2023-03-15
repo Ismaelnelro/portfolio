@@ -22,7 +22,7 @@
     position: absolute;
     z-index: 99;
     background-color: var(--color-navbar);
-    margin: -45px;
+    margin: -52px;
     width: 58px;
     height: 100vh;
     display: flex;

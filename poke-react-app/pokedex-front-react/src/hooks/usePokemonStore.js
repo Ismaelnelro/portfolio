@@ -12,7 +12,8 @@ export const usePokemonStore = () => {
 
     const startSavingFavorite = async (pokemon) => {
         console.log(pokemon);
-        const { id, name, height, weight, types, stats ,sprites } = pokemon;
+        const { id, name, height, weight, types, stats, sprites, abilities } = pokemon;
+
         const typeDB = types.map((type) => {
             return type.type.name
         })
@@ -24,23 +25,35 @@ export const usePokemonStore = () => {
             }
         })
 
+        const abilitiesDB = abilities.map((ability) => {
+            return ability.ability.name
+        })
+
+        let image = sprites.other.dream_world.front_default;
+        if (!sprites.other.dream_world.front_default) { return image = sprites.front_default };
+
+
+
         const pokemonModel = {
             id,
             name,
             height,
             weight,
-            types: typeDB,
+            type1: typeDB[0],
+            type2: typeDB[1],
             stats: statsDB,
-            sprites: sprites.front_default
+            sprites: image,
+            abilities: abilitiesDB,
         }
         const { data } = dbmongoApi.post('/events', pokemonModel)
     }
 
 
+
     const getFavoritePokemons = async () => {
         const { data } = await dbmongoApi.get('/events')
         dispatch(setFavoritePokemon(data?.schemaDB[0]?.favoritePokemons))
-        console.log("usePokemonStore",favorites);
+        console.log(data);
     }
 
 

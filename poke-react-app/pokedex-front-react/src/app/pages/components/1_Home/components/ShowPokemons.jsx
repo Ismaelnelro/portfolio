@@ -30,6 +30,7 @@ export const ShowPokemons = () => {
             toast.warning(' you have already this pokemon on favorites')
             return
         }
+        
         toast.success('You got a new pokemon on favorites')
         const favorite = await getPokemonByName(name)
         await startSavingFavorite(favorite)
