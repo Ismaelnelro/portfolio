@@ -14,3 +14,6 @@ A pesar de todo ello en este proyecto disfrute mucho maquetar y dar estilos, apr
 
 Una web que de seguro tiene errores pero fueron mis primeros errores!😁
 
+
+Lo dejo asi porque asi lo encontre, desorganizado con muchas carpetas y archivos basura.!
+
