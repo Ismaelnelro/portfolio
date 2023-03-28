@@ -1,5 +1,3 @@
-# PERSONAL WEB
+## PERSONAL WEB
 
-ℹ️[INFO]ℹ️
-WEB CREADA CON LA BIBLIOTECA DE REACT
-https://es.reactjs.org/
+###### WEB CREADA CON LA BIBLIOTECA DE REACT [https://es.reactjs.org/]
